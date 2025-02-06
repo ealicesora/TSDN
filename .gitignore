@@ -1,0 +1,233 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+logs/
+videos/
+vrig_dataset/
+data_dnerf/
+DynamicNeRF-Hyper/
+
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+temp/input/000.png
+temp/input/001.png
+temp/input/edge/000_edge_guide.png
+temp/input/edge/001_edge_guide.png
+temp/Output/flow/input1_g_pos.png
+temp/Output/flow/input1.npy
+temp/Output/flow/input1.png
+temp/Output/flow/input2_g_pos.png
+temp/Output/flow/input2.npy
+temp/Output/flow/input2.png
+temp/Output/flow/input3_g_pos.png
+temp/Output/flow/input3.npy
+temp/Output/flow/input3.png
+temp/Output/flow/input4_g_pos.png
+temp/Output/flow/input4.npy
+temp/Output/flow/input4.png
+temp/Output/stylized/001001.png
+temp/Output/stylized/002001.png
+temp/Output/stylized/003001.png
+temp/Output/stylized/004001.png
+temp/Output/stylized/005001.png
+temp/Output/stylized/006001.png
+temp/Output/stylized/007001.png
+temp/Output/stylized/008001.png
+temp/Output/stylized/009001.png
+temp/Output/stylized/010001.png
+temp/Output/stylized/011001.png
+temp/Output/stylized/012001.png
+temp/Output/stylized/013001.png
+temp/Output/stylized/014001.png
+temp/Output/stylized/015001.png
+temp/Output/stylized/016001.png
+temp/Output/stylized/017001.png
+temp/Output/stylized/018001.png
+temp/Output/stylized/019001.png
+temp/Output/stylized/020001.png
+temp/Output/stylized/021001.png
+temp/Output/stylized/022001.png
+temp/Output/stylized/023001.png
+temp/Output/stylized/024001.png
+temp/styDir/000.png
+temp/Output/stylized/025001.png
+temp/Output/stylized/026001.png
+temp/Output/stylized/027001.png
+temp/Output/stylized/028001.png
+temp/Output/stylized/029001.png
+temp/Output/stylized/030001.png
+temp/Output/stylized/031001.png
+temp/Output/stylized/032001.png
+temp/Output/stylized/033001.png
+temp/Output/stylized/034001.png
+temp/Output/stylized/035001.png
+temp/Output/stylized/036001.png
+temp/Output/stylized/037001.png
+temp/Output/stylized/038001.png
+temp/Output/stylized/039001.png
+temp/Output/stylized/040001.png
+temp/Output/stylized/041001.png
+temp/Output/stylized/042001.png
+temp/Output/stylized/043001.png
+temp/Output/stylized/044001.png
+temp/Output/stylized/045001.png
+temp/Output/stylized/046001.png
+temp/Output/stylized/047001.png
+temp/Output/stylized/048001.png
+temp/Output/stylized/049001.png
+temp/Output/stylized/050001.png
+temp/Output/stylized/051001.png
+temp/Output/stylized/052001.png
+temp/Output/stylized/053001.png
+temp/Output/stylized/054001.png
+temp/Output/stylized/055001.png
+temp/Output/stylized/056001.png
+temp/Output/stylized/057001.png
+temp/Output/stylized/058001.png
+temp/Output/stylized/059001.png
+temp/Output/stylized/060001.png
+temp/Output/stylized/061001.png
+temp/Output/stylized/062001.png
+temp/Output/stylized/063001.png
+temp/Output/stylized/064001.png
+temp/Output/stylized/065001.png
+temp/Output/stylized/066001.png
+temp/Output/stylized/067001.png
+temp/Output/stylized/068001.png
+temp/Output/stylized/069001.png
+temp/Output/stylized/070001.png
+temp/Output/stylized/071001.png
+temp/Output/stylized/072001.png
+temp/Output/stylized/073001.png
+temp/Output/stylized/074001.png
+temp/Output/stylized/075001.png
+temp/Output/stylized/076001.png
+temp/Output/stylized/077001.png
+temp/Output/stylized/078001.png
+temp/Output/stylized/079001.png
+temp/Output/stylized/080001.png
+temp/Output/stylized/081001.png
