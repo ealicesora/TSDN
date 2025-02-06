@@ -1,15 +1,29 @@
 # TSDN: Transport-based Stylization for Dynamic NeRF
 
-The dataset is build from Robust Dynamic Radiance Fields and turned to a Dnerf dataset for TiNueVox.
-As a result our work is limited in the length and huge motion of the videos input. 
-I believe this is casued by the limiation of Dynamic NeRF. I Really expected someone could follow this work and fix this. 
+This repository contains a pipeline for dynamic scene stylization using TSDN based on TiNeuVox. The dataset is converted from [Robust Dynamic Radiance Fields](https://dynamic-nerf.github.io/) to a [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html) compatible format.
 
+## Key Limitations
+Our current implementation faces constraints when processing:
+- **Long-duration videos** 
+- **Scenes with drastic motions**
 
-First run run.py to resconstruct dynamic nerf scene and use run_TSDN.py to get stylized results.
+These limitations stem from fundamental challenges in Dynamic NeRF architectures. We explicitly encourage researchers to explore solutions in these directions and welcome contributions to overcome these constraints.
 
-Most parameter are hardcoded in the files and will be fixed later
-Some tools may help transferring the dataset, and I will upload them once i clean up them.
+## Quick Start
+1. **Dynamic Reconstruction**  
+   Reconstruct the dynamic NeRF scene:
+   ```bash
+   python run.py
+1. **Stylization Generation**  
+   Obtain stylized results using:
+   ```bash
+   python run_TSDN.py
+## Implementation Notes
+⚠️ Current Constraints
 
+Core parameters are hardcoded in run.py and run_TSDN.py (to be modularized in future releases)
+
+Dataset conversion tools will be released after code refactoring
 
 ## Requirements
 * lpips
